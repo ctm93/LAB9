@@ -1,0 +1,26 @@
+{
+  "name": "lab_9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctm93/LAB9.git"
+  },
+  "author": "Cristina Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctm93/LAB9/issues"
+  },
+  "homepage": "https://github.com/ctm93/LAB9#readme"
+}

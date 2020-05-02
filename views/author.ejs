@@ -1,0 +1,33 @@
+<%- include ('template/header'); -%>
+
+<div class='container'>
+
+        <h1> AUTHOR </h1>
+        <div class='row'>
+            <div class='col-sm-4'></div>
+            <button class='btn-primary' onclick='location.href="/";'>Back</button>
+            <div class='col-sm-4'></div>
+        </div>
+    </div>
+    
+    <div class='row'>
+        <%if(!author){%>
+            <h1 class='col-sm-12 notfound'>CANNOT FIND AUTHOR</h1>
+        <%}
+        else{%>
+            <img class='col-sm-4 portrait' src=<%=author.portrait%> />
+		    <div class='col-sm-4 info'>
+		        <h3><%=author.firstName%> <%=author.lastName%></h3>
+		        <div>Born: <%=author.dob%></div>
+		        <div>Dead: <%=author.dod%></div>
+		        <div>Sex: <%=author.sex%></div>
+		        <div>Profession: <%=author.profession%></div>
+		        //<div>Country: <%=author.country%></div>
+		        <div class='bio'><%=author.biography%></div>
+		        <a href='/author/<%=author.authorId%>'><h2>Quotes</h2></a>
+		    </div>
+        <%}%>
+	</div>
+</div>
+
+<%- include ('template/footer'); -%>
