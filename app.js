@@ -9,10 +9,10 @@ app.set('view engine', 'ejs');
 
 /* Configure MySQL DBMS */
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'cmart',
-    password: 'cmart',
-    database: 'quotes_db'
+    host: 'un0jueuv2mam78uv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+    user: 'jrxb79ookhseuh9f',
+    password: 'qwzn30paenrwdao9',
+    database: 'lnpsgn9h1el08n9i'
 });
 connection.connect();
 
